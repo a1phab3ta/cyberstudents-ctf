@@ -110,6 +110,7 @@ export class SubmitFlagHandler extends InteractionHandler {
         .setTitle("Sorry, that's not the right flag.")
         .setDescription(
           [
+	    "You entered: **${flag}**",
             "Common mistakes when submitting flags:",
             "- Not in `csd{flag}` format",
             "- Capitalization/typos",
